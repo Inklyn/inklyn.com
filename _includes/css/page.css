@@ -11,6 +11,7 @@ page-title {
 page-wrapper {
 	display: block;
 	margin: var(--space-m) auto;
+	padding-inline: var(--space-s);
 	background-color: var(--bg-color-low);
 	border-radius: var(--border-radius);
 }
