@@ -1,0 +1,58 @@
+/* greyscale */
+:root {
+  --color-gray-1: #fafafa;
+  --color-gray-2: #f5f5f5;
+  --color-gray-3: #e5e7eb;
+  --color-gray-4: #a0a0a0;
+  --color-gray-5: #606060;
+  --color-gray-6: #404040;
+  --color-gray-7: #262626;
+  --color-gray-8: #171717;
+  --color-gray-9: #101010;
+}
+
+/* color, https://tailwindcss.com/docs/customizing-colors */
+:root {
+  --color-1: #fafafa; /* zinc-50 */
+  --color-2: #e5e5e5;
+  --color-3: #d5d5d5;
+  --color-4: #a0a0a0;
+  --color-5: #606060;
+  --color-6: #404040;
+  --color-7: #262626;
+  --color-8: #171717;
+  --color-9: #27272a; /* zinc-80 */
+}
+
+/* light-dark */
+:root {
+  --color-zero              : light-dark(#fff, #000);
+  --color-full              : light-dark(#000, #fff);
+
+  /* https://oinam.com/brand/ */
+  --color-primary           : light-dark(#3465a7, #5685b7);
+  --color-primary-accent    : light-dark(#ff6600, #ff9200);
+  --color-secondary         : light-dark(#244f81, #3465a7);
+  --color-secondary-accent  : light-dark(#ff9200, #ff9200);
+
+  --bg-color-lower          : light-dark(var(--color-gray-1), var(--color-gray-8));
+  --bg-color-low            : light-dark(var(--color-gray-2), var(--color-gray-7));
+  --bg-color                : light-dark(var(--color-gray-3), var(--color-gray-6));
+  --bg-color-high           : light-dark(var(--color-gray-8), var(--color-gray-2));
+  --bg-color-higher         : light-dark(var(--color-gray-9), var(--color-gray-1));
+  
+  --text-color-lower        : light-dark(var(--color-gray-4), var(--color-gray-6));
+  --text-color-low          : light-dark(var(--color-gray-5), var(--color-gray-5));
+  --text-color              : light-dark(var(--color-gray-7), var(--color-gray-4));
+  --text-color-high         : light-dark(var(--color-gray-8), var(--color-gray-3));
+  --text-color-higher       : light-dark(var(--color-gray-9), var(--color-gray-2));
+  
+  --text-color-link         : light-dark(var(--color-gray-8), var(--color-gray-3));
+  --text-color-link-active  : light-dark(var(--color-gray-9), var(--color-gray-2));
+
+  --border-color-lower      : light-dark(var(--color-gray-1), var(--color-gray-8));
+  --border-color-low        : light-dark(var(--color-gray-2), var(--color-gray-7));
+  --border-color            : light-dark(var(--color-gray-3), var(--color-gray-6));
+  --border-color-high       : light-dark(var(--color-gray-4), var(--color-gray-5));
+  --border-color-higher     : light-dark(var(--color-gray-5), var(--color-gray-4));
+}

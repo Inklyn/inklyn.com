@@ -1,0 +1,210 @@
+.container {
+  width: var(--body-width);
+  max-width: var(--body-width-ideal);
+  margin-inline: auto;
+}
+
+site-hero,
+site-cta,
+site-icp,
+site-features,
+site-testimonials,
+site-market,
+site-connect {
+  display: block;
+  margin: var(--space-s) auto;
+  padding: var(--space-s) 0;
+}
+
+/* HERO */
+site-hero {
+  text-align: center;
+  padding: var(--space-xs) var(--space-m);
+  background-color: var(--bg-color-lower);
+  border-radius: var(--border-radius);
+}
+
+hero-title h2 {
+  color: var(--color-primary);
+  font-family: var(--font-family-alt);
+  font-weight: 400;
+  font-size: var(--step-2);
+}
+
+hero-sidekick {
+  display: block;
+  max-width: var(--body-width-small);
+  margin-inline: auto;
+  color: var(--text-color-low);
+  font-size: var(--step-0);
+}
+
+hero-sidekick span {
+  padding-inline: var(--space-3xs);
+  background-color: var(--color-primary-accent);
+  color: var(--color-zero);
+
+  /* fix edges of wrapped inline elements */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+/* CTA */
+site-cta {
+  text-align: center;
+}
+
+cta-title a, cta-title a:visited {
+  display: inline-block;
+  margin: 0;
+  padding: var(--space-3xs) var(--space-m);
+
+  font-size: var(--step-2);
+  font-weight: var(--font-weight-low);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-zero) !important;
+  border-radius: var(--border-radius-largest);
+}
+
+cta-title a:hover, cta-title a:active {
+  background-color: var(--color-secondary);
+}
+
+cta-subtitle {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: var(--step--2);
+  color: var(--text-color-low);
+}
+
+/* ICP  */
+site-icp {
+  font-family: var(--font-family-alt);
+  font-size: var(--step-2);
+  padding-inline: var(--space-m);
+  text-align: center;
+  color: var(--color-primary-accent);
+}
+
+site-icp span {
+  display: block;
+  background-color: var(--color-primary-accent);
+  color: var(--color-zero);
+  margin: var(--space-2xs) 0;
+  padding-inline: var(--space-xs);
+
+  /* fix edges of wrapped inline elements */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+/* FEATURES */
+site-features {
+  padding-inline: var(--space-m);
+  font-size: var(--step-1);
+  font-weight: var(--font-weight-lower);
+}
+
+site-features h3 {
+  margin: 0;
+  padding: 0;
+  font-size: var(--step-2);
+  font-weight: var(--font-weight-lowest);
+  text-align: center;
+}
+
+site-features span {
+  display: block;
+  background-color: var(--color-primary);
+  color: var(--color-zero);
+  margin: var(--space-2xs) 0;
+  padding-inline: var(--space-xs);
+
+  /* fix edges of wrapped inline elements */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+/* TESTIMONIALS */
+site-testimonials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 3%;
+  row-gap: var(--space-s);
+}
+
+site-testimonials article {
+  width: 100%;
+  padding: var(--space-s);
+  font-family: var(--font-family-alt);
+  background-color: var(--bg-color-low);
+  color: var(--text-color-low);
+  border-radius: var(--border-radius-small);
+}
+
+@media only screen and (min-width: $breakpoint-medium) {
+  site-testimonials article {
+    width: 31%;
+  }
+}
+
+site-testimonials small {
+  display: inline-block;
+  font-family: var(--font-family);
+}
+
+/* MARKET */
+site-market {}
+
+site-market article {
+  margin: 0;
+  padding: var(--space-s) var(--space-l);
+  background-color: var(--bg-color-lower);
+  border-radius: var(--border-radius-small);
+
+  columns: 2;
+
+  font-style: italic;
+}
+
+site-market article ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+site-market article ul li {
+  margin: 0;
+  padding-inline: var(--space-3xs);
+}
+
+site-market article ul li:last-child {
+  background-color: var(--color-primary-accent);
+  color: var(--color-zero);
+
+  /* fix edges of wrapped inline elements */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+site-market h3, site-market h4 {
+  background-color: var(--bg-color-low);
+  margin: 0 var(--space-s);
+  padding: var(--space-2xs) var(--space-s);
+  font-weight: var(--font-weight-lowest);
+  font-size: var(--step-1);
+}
+
+site-market h3 {
+  border-top-left-radius: var(--border-radius-largest);
+  border-top-right-radius: var(--border-radius-largest);
+}
+
+site-market h4 {
+  border-bottom-left-radius: var(--border-radius-largest);
+  border-bottom-right-radius: var(--border-radius-largest);
+}

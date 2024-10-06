@@ -1,0 +1,8 @@
+<site-testimonials>
+	{% for item in site.data.testimonials %}
+	<article>
+		“{{ item.say }}”
+		<small>— <a href="{{ item.url }}">{{ item.who }}</a></small>
+	</article>
+	{% endfor %}
+</site-testimonials>

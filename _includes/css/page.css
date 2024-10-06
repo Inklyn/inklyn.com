@@ -1,0 +1,16 @@
+page-title {
+	display: block;
+	width: var(--body-width);
+  max-width: var(--body-width-ideal);
+  margin-inline: auto;
+
+	font-family: var(--font-family-alt);
+	font-size: var(--step-0);
+}
+
+page-wrapper {
+	display: block;
+	margin: var(--space-m) auto;
+	background-color: var(--bg-color-low);
+	border-radius: var(--border-radius);
+}

@@ -1,0 +1,23 @@
+title: 'Inklyn'
+description: 'Run global businesses from the USA while you live where you’re treated well.'
+
+url: 'https://inklyn.com'
+baseurl: ''
+
+markdown: kramdown
+
+permalink: pretty
+permalink: /:title/
+
+feed:
+  posts_limit: 10
+  author: Inklyn
+
+sass:
+  style: compressed
+  sourcemap: never
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.*
