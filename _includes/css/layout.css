@@ -10,6 +10,7 @@ site-icp,
 site-features,
 site-testimonials,
 site-market,
+site-why,
 site-connect {
   display: block;
   margin: var(--space-s) auto;
@@ -155,6 +156,12 @@ site-testimonials article {
 site-testimonials small {
   display: inline-block;
   font-family: var(--font-family);
+}
+
+/* WHY */
+site-why {
+  max-width: var(--body-width-small);
+  font-size: var(--step-0);
 }
 
 /* MARKET */
