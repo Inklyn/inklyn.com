@@ -1,0 +1,15 @@
+mark,
+.mark {
+	padding: 0 var(--space-3xs);
+  background-color: var(--color-secondary-accent);
+  color: var(--color-zero);
+  border-radius: var(--border-radius-small);
+
+  /* fix edges of wrapped inline elements */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+.mark-alt {
+	background-color: var(--color-primary-accent);
+}
