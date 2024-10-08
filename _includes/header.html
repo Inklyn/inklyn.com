@@ -2,6 +2,8 @@
 	<site-logo><a href="/">{% include inklyn-logo.svg %}</a></site-logo>
 	<h1><a href="/">{{ site.title }}</a></h1>
 	<nav>
-		<a href="/contact/">Contact</a>
+		{% for item in site.data.nav.main %}
+			<a href="{{ item.url }}">{{ item.title }}</a>
+		{% endfor %}
 	</nav>
 </header>

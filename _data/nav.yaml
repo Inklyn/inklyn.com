@@ -1,0 +1,17 @@
+main:
+- title: Apply
+  url: "/apply/"
+- title: Contact
+  url: "/contact/"
+
+footer:
+- title: Home
+  url: "/"
+- title: Apply
+  url: "/apply/"
+- title: Terms
+  url: "/terms/"
+- title: Privacy
+  url: "/privacy/"
+- title: Contact
+  url: "/contact/"

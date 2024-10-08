@@ -17,16 +17,27 @@ site-logo {
 	height: var(--logo-size);
 }
 
+site-logo svg {
+	max-width: 100% !important;
+	max-height: 100% !important;
+}
+
+site-logo svg .logo__svg {}
+site-logo svg .logo__svg--path, site-logo svg .logo__svg--path:visited {
+	fill: var(--text-color);
+}
+
 header h1 {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-	font-family: var(--font-family-alt);
 	text-transform: lowercase;
+	font-family: var(--font-family-alt);
 	font-size: var(--step-1);
 }
 
 header h1 a, header h1 a:visited {
+	color: var(--color-full);
 	text-decoration: none;
 }
 
@@ -34,18 +45,6 @@ header h1 a:hover, header h1 a:active {
 	color: var(--color-primary);
 }
 
-header nav {
-	font-size: var(--step--1);
-}
-
 header nav a {
-	margin: 0 var(--space-xs);
-	padding: var(--space-3xs) 0;
-	text-decoration: none;
-	border-bottom: var(--border-size) var(--border-style) var(--border-color-high);
-}
-
-header nav a:hover, header nav a:active {
-	color: var(--color-primary);
-	border-bottom: var(--border-size-small) var(--border-style) var(--color-primary);
+	margin-inline: var(--space-3xs);
 }

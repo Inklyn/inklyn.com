@@ -52,8 +52,9 @@
   --font-family-monospace    : Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   --font-family-cursive      : "Comic Sans MS", cursive;
   
-  --font-family              : "Inter", var(--font-family-sans);
-  --font-family-alt          : "Libre Baskerville", var(--font-family-serif);
+  --font-family              : "Lato", var(--font-family-sans);
+  --font-family-alt          : "Merriweather", var(--font-family-serif);
+  --font-size                : 18px;
 
   --font-weight-lowest       : 100;
   --font-weight-lower        : 200;
@@ -86,7 +87,7 @@
   --border-size-larger       : 20px;
   --border-size-largest      : 42px;
 
-  --logo-size                : 32px;
+  --logo-size                : 42px;
 }
 
 /*

@@ -35,11 +35,11 @@
   --color-secondary         : light-dark(#244f81, #3465a7);
   --color-secondary-accent  : light-dark(#ff9200, #ff9200);
 
-  --bg-color-lower          : light-dark(var(--color-gray-1), var(--color-gray-8));
-  --bg-color-low            : light-dark(var(--color-gray-2), var(--color-gray-7));
-  --bg-color                : light-dark(var(--color-gray-3), var(--color-gray-6));
-  --bg-color-high           : light-dark(var(--color-gray-8), var(--color-gray-2));
-  --bg-color-higher         : light-dark(var(--color-gray-9), var(--color-gray-1));
+  --bg-color-lower          : light-dark(var(--color-gray-1), var(--color-gray-9));
+  --bg-color-low            : light-dark(var(--color-gray-2), var(--color-gray-8));
+  --bg-color                : light-dark(var(--color-gray-3), var(--color-gray-7));
+  --bg-color-high           : light-dark(var(--color-gray-7), var(--color-gray-3));
+  --bg-color-higher         : light-dark(var(--color-gray-8), var(--color-gray-2));
   
   --text-color-lower        : light-dark(var(--color-gray-4), var(--color-gray-6));
   --text-color-low          : light-dark(var(--color-gray-5), var(--color-gray-5));
