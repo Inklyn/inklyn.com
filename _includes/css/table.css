@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  text-align: left;
+}
+
+td,
+th {
+  padding: var(--space-3xs) var(--space-2xs);
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+thead {
+  border-bottom: var(--border-size) var(--border-style) var(--border-color-high);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--bg-color-low);
+}

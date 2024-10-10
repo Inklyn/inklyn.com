@@ -48,11 +48,3 @@ header h1 a:hover, header h1 a:active {
 header nav a {
 	margin-inline: var(--space-3xs);
 }
-
-.site-desc {
-	margin: 0;
-	padding: var(--space-2xs) 0;
-	text-align: center;
-	font-weight: var(--font-weight-low);
-	color: var(--color-full);
-}

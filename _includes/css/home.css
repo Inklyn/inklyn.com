@@ -1,0 +1,7 @@
+.site-desc {
+  margin: 0;
+  padding: var(--space-2xs) 0;
+  text-align: center;
+  font-weight: var(--font-weight-low);
+  color: var(--color-full);
+}
