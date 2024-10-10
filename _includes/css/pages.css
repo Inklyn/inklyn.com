@@ -49,6 +49,7 @@ pricing-main table th {
 
 pricing-addons {
 	margin-bottom: var(--space-m);
+	padding: var(--space-3xs) 0;
 	border-radius: var(--border-radius);
 	border: var(--border-size) var(--border-style) var(--border-color-high);
 }
