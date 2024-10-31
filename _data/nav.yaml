@@ -1,8 +1,6 @@
 main:
 - title: Apply
   url: "/apply/"
-- title: Pricing
-  url: "/pricing/"
 - title: Contact
   url: "/contact/"
 
@@ -11,8 +9,6 @@ footer:
   url: "/"
 - title: Apply
   url: "/apply/"
-- title: Pricing
-  url: "/pricing/"
 - title: Terms
   url: "/terms/"
 - title: Privacy
