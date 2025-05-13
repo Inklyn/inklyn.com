@@ -12,6 +12,7 @@ site-features,
 site-testimonials,
 site-why,
 site-market,
+site-disclaimer,
 module-start {
   display: block;
   margin: var(--space-s) auto;
@@ -168,4 +169,20 @@ module-start h3 {
   padding: 0;
   font-weight: var(--font-weight-low);
   font-size: var(--step-1);
+}
+
+/* DISCLAIMER */
+site-disclaimer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+site-disclaimer p {
+  margin: 0;
+  padding: 0;
+}
+
+site-disclaimer span {
+  color: var(--color-primary-accent);
 }
