@@ -1,6 +1,8 @@
 main:
 - title: Apply
   url: "/apply/"
+- title: FAQ
+  url: "/faq/"
 - title: Contact
   url: "/contact/"
 
@@ -13,5 +15,7 @@ footer:
   url: "/terms/"
 - title: Privacy
   url: "/privacy/"
+- title: FAQ
+  url: "/faq/"
 - title: Contact
   url: "/contact/"

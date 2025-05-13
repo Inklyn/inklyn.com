@@ -1,3 +1,27 @@
+button, button:visited,
+.button, .button:visited {
+	text-align: center;
+
+	display: inline-block;
+  margin: 0;
+  padding: var(--space-3xs) var(--space-m);
+
+  font-size: var(--step-1);
+  font-weight: var(--font-weight-low);
+  
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-1);
+  border-radius: var(--border-radius-largest);
+}
+
+button:hover, button:active,
+.button:hover, .button:active {
+	text-decoration: none;
+	color: var(--color-zero);
+  background-color: var(--color-primary-accent);
+}
+
 .pills {
 	list-style: none;
 	margin: 0;

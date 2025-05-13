@@ -9,7 +9,3 @@ mark,
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-
-.mark-alt {
-	background-color: var(--color-primary-accent);
-}
