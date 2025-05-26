@@ -17,5 +17,9 @@ footer:
   url: "/privacy/"
 - title: FAQ
   url: "/faq/"
+- title: Blog
+  url: "https://blog.inklyn.com"
+- title: Knowledge Base
+  url: "https://kb.inklyn.com"
 - title: Contact
   url: "/contact/"
